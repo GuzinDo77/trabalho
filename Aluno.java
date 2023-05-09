@@ -7,12 +7,12 @@ public class Aluno extends Pessoa {
         this.semestre = semestre;
     }
 
-    public void setCurso(String curso){
-        this.curso = curso;
-    }
-
     public String getSemestre(){
         return semestre;
+    }
+
+    public void setCurso(String curso){
+        this.curso = curso;
     }
 
     public String getCurso() {
