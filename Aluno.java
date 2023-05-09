@@ -25,13 +25,7 @@ public class Aluno extends Pessoa {
         this.semestre = semestre;
     }
 
-    public void dados() {
-        System.out.println("Nome do Aluno: " + getNome());
-        System.out.println("Idade do Aluno: " + getIdade());
-        System.out.println("Endereço do aluno: " + getEndereco());
-        System.out.println("Curso do Aluno: " + getCurso());
-        System.out.println("Semestre atual: " + getSemestre() + "\n");
+    public Aluno(){
 
-        
     }
-}
+    }

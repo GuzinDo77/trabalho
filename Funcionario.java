@@ -19,4 +19,7 @@ public class Funcionario extends Pessoa {
             System.out.println("O sálario indicado tem que ser maior de R$ 0");
         }
     }
+    public Funcionario(){
+        
+    }
 }

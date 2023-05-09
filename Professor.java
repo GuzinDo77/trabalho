@@ -14,11 +14,7 @@ public class Professor extends Funcionario {
         this.diciplina = diciplina;
     }
 
-    public void dados() {
-        System.out.println("Nome do professor: " + getNome());
-        System.out.println("Idade do professor: " + getIdade());
-        System.out.println("Matéria lecionada pelo professor: " + getDiciplina());
-        System.out.println("Salário do professor: R$" + getSalario());
-        System.out.println("Endereço do professor: " + getEndereco() + "\n");
+    public Professor(){
+
     }
-}
+    }

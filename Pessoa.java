@@ -32,4 +32,7 @@ public class Pessoa{
         this.idade = idade;
         this.endereco = endereco;
     }
+    public Pessoa(){
+
+    }
 }
